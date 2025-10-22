@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1001,
+    "priority": 1,
+    "action": { "type": "block" },
+    "condition": {
+      "regexFilter": "https?:\\/\\/(chatgpt\\.com|chat\\.openai\\.com)\\/.*(backend-api\\/files|upload|backend-api\\/file-upload)",
+      "resourceTypes": ["xmlhttprequest", "fetch", "other"],
+      "requestMethods": ["post"]
+    }
+  }
+]
